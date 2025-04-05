@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\terraforms AWS\\ProductApi\\ProductApi.csproj": {}
+    "C:\\terraforms AWS\\ASP NET Web API MySQL CRUD\\ProductApi.csproj": {}
   },
   "projects": {
-    "C:\\terraforms AWS\\ProductApi\\ProductApi.csproj": {
+    "C:\\terraforms AWS\\ASP NET Web API MySQL CRUD\\ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\terraforms AWS\\ProductApi\\ProductApi.csproj",
+        "projectUniqueName": "C:\\terraforms AWS\\ASP NET Web API MySQL CRUD\\ProductApi.csproj",
         "projectName": "ProductApi",
-        "projectPath": "C:\\terraforms AWS\\ProductApi\\ProductApi.csproj",
+        "projectPath": "C:\\terraforms AWS\\ASP NET Web API MySQL CRUD\\ProductApi.csproj",
         "packagesPath": "C:\\Users\\lawre\\.nuget\\packages\\",
-        "outputPath": "C:\\terraforms AWS\\ProductApi\\obj\\",
+        "outputPath": "C:\\terraforms AWS\\ASP NET Web API MySQL CRUD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lawre\\AppData\\Roaming\\NuGet\\NuGet.Config"

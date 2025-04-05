@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yBnnMhrdFBflpXx5Ph5G6E1N2xiZgm1dzM/+dTTQ8Ak4NXA0aJE3HuTO4Ng9gnZHwrG7hhhh9qKY+l5k3WTy3g==",
+  "dgSpecHash": "d542Qsjq75z9VboYua0jzmHohb1o+Y0BzhMJjm3qhXsVVeZHpi5CJIm7RtnB/2NGFHQgzMjTmR2hQxW1KmTrzg==",
   "success": true,
-  "projectFilePath": "C:\\terraforms AWS\\ProductApi\\ProductApi.csproj",
+  "projectFilePath": "C:\\terraforms AWS\\ASP NET Web API MySQL CRUD\\ProductApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lawre\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lawre\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.27\\microsoft.entityframeworkcore.6.0.27.nupkg.sha512",

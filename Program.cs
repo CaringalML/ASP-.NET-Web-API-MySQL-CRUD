@@ -18,7 +18,8 @@ builder.Services.AddCors(options =>
         {
             builder
                 .WithOrigins(
-                    "https://your-frontend-domain.com", 
+                    "https://artisantiling.co.nz",
+                    "https://www.artisantiling.co.nz", 
                     "http://localhost:3000" // For local development
                 )
                 .WithMethods("GET", "POST", "PUT", "DELETE")
