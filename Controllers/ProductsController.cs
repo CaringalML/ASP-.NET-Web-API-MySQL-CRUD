@@ -33,7 +33,8 @@ namespace ProductApi.Controllers
                 
             return Ok(product);
         }
-
+        
+        //Post Data
         [HttpPost]
         public async Task<ActionResult<Product>> CreateProduct(ProductDto productDto)
         {
@@ -50,6 +51,8 @@ namespace ProductApi.Controllers
             return CreatedAtAction(nameof(GetProduct), new { id = product.Id }, product);
         }
 
+
+        //Update Data
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, ProductDto productDto)
         {
@@ -63,21 +66,23 @@ namespace ProductApi.Controllers
             
             var updatedProduct = await _productRepository.UpdateProductAsync(id, product);
             
-            if (updatedProduct == null)
+            if (updatedProduct == null){
                 return NotFound();
+            }
                 
-            return NoContent();
+            return Ok(updatedProduct);  
         }
 
+        //Delete Data
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
             var success = await _productRepository.DeleteProductAsync(id);
             
-            if (!success)
+            if (!success){
                 return NotFound();
-                
-            return NoContent();
+            }
+            return Ok(success);
         }
     }
 }
